@@ -1,0 +1,164 @@
+@import url("fonts.css");
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(0,0,0);
+}
+a {
+    color: rgb(0,0,0);
+}
+a:hover,
+a:focus,
+a:active
+{
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+.black {
+    color: #000;
+}
+.white {
+    color: #fff;
+}
+.red {
+    color: #ec3232;
+}
+/* Navbar */
+.navbar {
+    background-color: rgba(0,0,0, 0.75);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+        webkit-box-shadow: 5px 5px rgb(0,0,0);
+            -moz-box-shadow: 5px 5px rgb(0,0,0);
+    margin: 15px 15px 0;
+}
+.navbar-nav>li>a {
+    color: rgb(255,255,255);
+}
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a:active
+{
+    color: #ec3232;
+    background-color: transparent;
+}
+.navbar-nav>li.current>a
+{
+    color: #ec3232;
+}
+.navbar-toggle {
+    border-radius: 0;
+}
+.navbar-toggle .icon-bar {
+    background-color: rgb(255,255,255);
+}
+/* Sections */
+.section {
+    padding: 90px 0 80px;
+    background-color: #fff;
+}
+.banner {
+    padding: 150px 0 140px;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-home {
+    background-image: url("../images/macbook_air.jpg");
+}
+.section-contact {
+    background-color: #ec3232;
+}
+.section-thanks {
+    background-image: url("../images/macbook_air.jpg");
+}
+.section-footer {
+    color: #ccc;
+    font-size: 12px;
+    padding: 10px 0 0;
+    background-color: #000;
+}
+#my-slider {
+    background-size: cover;
+    position: relative;
+    height:650px;
+}
+/* Titles, Scroll text*/
+h2.sub-title {
+    font-family: "Pacifico", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 5px;
+}
+h1.main-title {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0 0 10px;
+}
+.section-home h1.main-title,
+.section-home h2.sub-title{
+    margin: 0;
+}
+p.description {
+    display: inline-block;
+    background-color: rgba(0,0,0,.65);
+    color: #cfcfcf;
+    padding: 5px 10px;
+}
+div.text-scroll {
+    overflow: hidden;
+    height: 90px;
+    vertical-align: baseline;
+}
+div.text-scroll h1 {
+    height: 90px;
+    line-height: 90px;
+    margin: 0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.3);
+    transition: margin-top 0.5s ease-in-out;
+        -webkit-transition: margin-top 0.5s ease-in-out;
+            -moz-transition: margin-top 0.5s ease-in-out;
+                -ms-transition: margin-top 0.5s ease-in-out;
+                    -o-transition: margin-top 0.5s ease-in-out;
+}
+.up {
+    position: relative;
+    z-index: 3;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: url("../images/dirt.png");
+    background-repeat: repeat;
+
+}
+.progress-bar {
+    background-color: #ec3232;
+}
+.email {
+    background-color: rgba(255, 255, 255, .75);
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+
+@media (min-width: 768px) {
+    h1.main-title {
+        font-size: 46px;
+    }
+}

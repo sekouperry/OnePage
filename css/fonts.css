@@ -1,0 +1,13 @@
+/* ======================================================================== */
+/* ! Font
+/* ======================================================================== */
+@font-face {
+   font-weight: normal;
+   font-style: normal;
+   font-family: 'Pacifico';
+   src: url('../fonts/pacifico.eot');
+   src: url('../fonts/pacifico.eot?#iefix') format('eot'),
+        url('../fonts/pacifico.woff') format('woff'),
+        url('../fonts/pacifico.ttf') format('truetype'),
+        url('../fonts/pacifico.svg') format('svg');
+}
